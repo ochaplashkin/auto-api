@@ -1,0 +1,12 @@
+.card-header{
+	text-align:center;
+}
+.deny{
+	background-color: #ef535047;
+}
+.allow{
+	background-color: #dff0d8;
+	}
+.challenged{
+	background-color: #fcf8e3;
+}
