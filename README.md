@@ -1,9 +1,9 @@
 # Автоматизированная система тестирования API
 #### Содержание
   - [Общее описание](https://github.com/ochaplashkin/auto-api/blob/master/README.md#%D0%BE%D0%B1%D1%89%D0%B5%D0%B5-%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5)
-  - [Установка и запуск](https://test.com)
-  - [Решение возможных проблем](https://test.com)
-  - [Подробное описание функций](https://test.com)
+  - [Установка и запуск](https://github.com/ochaplashkin/auto-api/blob/master/README.md#%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-%D0%B8-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA)
+  - [Решение возможных проблем](https://github.com/ochaplashkin/auto-api#%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B2%D0%BE%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D1%8B%D1%85-%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC)
+  - [Подробное описание функций](https://github.com/ochaplashkin/auto-api#%D0%BF%D0%BE%D0%B4%D1%80%D0%BE%D0%B1%D0%BD%D0%BE%D0%B5-%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B)
 #### Общее описание
 Система предназначена для автоматизированого тестирования конечных точек (API) с помощью  генерации тестовых запросов и создания отчетов о результатах проведенного тестирования. Предоставляет удобный для анализа сервиса и работы программы отчет в виде html страницы. 
 ###### Принцип работы
@@ -15,7 +15,7 @@ $ git clone https://github.com/ochaplashkin/auto-api.git
 $ cd auto-api
 $ pip3 install requirements.txt -r
 ```
-Измените конфигурационный файл, используя [подробное описание](https://nodejs.org/)
+Измените конфигурационный файл, используя [подробное описание](https://github.com/ochaplashkin/auto-api#%D0%BF%D0%BE%D0%B4%D1%80%D0%BE%D0%B1%D0%BD%D0%BE%D0%B5-%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B)
 ```sh
 $ cd config
 $ nano config.yml
@@ -27,7 +27,9 @@ $ nano config.yml
 | Структура строк | GET https://host.com/.... |
 |Символ разделения строк| '\n'|
 | Символ разделения данных в строке | ' '  (пробел) |
+
 > (!) Файл не должен содержать пустых строк
+
 > (!) Файл не должен содержать знаков киррилицы
 
 Перейдите в корневую папку проекта и запустите скрипт
