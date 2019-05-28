@@ -1,0 +1,7 @@
+input_file : 'config/example.txt'
+service_name : 'reqres.in'
+review_base_filename : 'report'
+report_type : 'img'
+report_directory : '/Users/ochaplashkin/Documents/workspace/auto_api/reports'
+
+

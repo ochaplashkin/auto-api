@@ -1,0 +1,12 @@
+GET https://reqres.in/api/test1
+GET https://reqres.in/api/test2/test3?data=1
+GET https://reqres.in/api/test1/test4?data=3
+GET https://reqres.in/pip/test3?name=admin
+GET https://reqres.in/pip/test1?name=test
+GET https://reqres.in/pip/test3/test2?data=2
+GET https://reqres.in/api/test1?fixture=1
+GET https://reqres.in/api/test2/test3?data=1
+GET https://reqres.in/api/test1/test4?data=4
+GET https://reqres.in/pip/test3
+GET https://reqres.in/pip/test1
+GET https://reqres.in/pip/test3/test2?data=5
